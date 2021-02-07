@@ -45,6 +45,5 @@ public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritabl
             // 之后reduce再聚合
             context.write(new Text(word), new IntWritable(1));
         }
-
     }
 }
