@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b194b7b-fb53-479c-9579-9b6596a7e9f9" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/flow/Flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/wc/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/wc/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/wc/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/wc/WordCountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/wc/WordCountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/wc/WordCountReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/line/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/line/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/line/LineMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/line/LineMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/line/LineReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/_miao/hdfs/mr/line/LineReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/hadoop.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/_miao/hdfs/runjar/Test1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +52,7 @@
   <component name="ProjectId" id="1nv7nnfs7nBQxUfnFuiZqFgiaVO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
@@ -69,11 +77,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.WordCount">
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn._miao.hdfs.client.ClientTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Flow">
+    <configuration name="ConfDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn._miao.hdfs.client.ConfDetail" />
       <module name="hadoop" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn._miao.hdfs.client.ConfDetail" />
-      <module name="hadoop" />
+    <configuration name="Flow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn._miao.hdfs.mr.flow.Flow" />
+      <module name="Hadoop-Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn._miao.hdfs.client.*" />
+          <option name="PATTERN" value="cn._miao.hdfs.mr.flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn._miao.hdfs.client.Ls" />
-      <module name="hadoop" />
+    <configuration name="Line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn._miao.hdfs.mr.line.Line" />
+      <module name="Hadoop-Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn._miao.hdfs.client.*" />
+          <option name="PATTERN" value="cn._miao.hdfs.mr.line.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Flow" />
+        <item itemvalue="Application.Line" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.HashCodeTest" />
         <item itemvalue="Application.ConfDetail" />
-        <item itemvalue="Application.Ls" />
-        <item itemvalue="Application.ClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +186,17 @@
       <workItem from="1612267229910" duration="8964000" />
       <workItem from="1612596885727" duration="3053000" />
       <workItem from="1612684718947" duration="2755000" />
+      <workItem from="1612689917845" duration="3166000" />
+      <workItem from="1612693506684" duration="1418000" />
     </task>
+    <task id="LOCAL-00001" summary="LineInit">
+      <created>1612690172394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612690172394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +207,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -193,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WordCount" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="LineInit" />
+    <option name="LAST_COMMIT_MESSAGE" value="LineInit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1612687577888">
@@ -204,34 +230,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1612267428598" />
-    <state x="107" y="27" width="1106" height="803" key="CommitChangelistDialog2" timestamp="1612687771316">
+    <state x="161" y="27" width="1106" height="803" key="CommitChangelistDialog2" timestamp="1612690516596">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="107" y="27" width="1106" height="803" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1612687771316" />
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1612687482336">
+    <state x="161" y="27" width="1106" height="803" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1612690516596" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1612703285167">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612687482336" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612703285167" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1612342164509" />
-    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1612687482335">
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1612703285162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612687482335" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612703285162" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1612342164492" />
-    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1612687482334">
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1612703285158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612687482334" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612703285158" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1612342164441" />
-    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1612687482336">
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1612703285164">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612687482336" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612703285164" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1612342164507" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1612684807372">
+    <state width="1398" height="654" key="GridCell.Tab.1.bottom" timestamp="1612693457781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612684807372" />
+    <state width="1398" height="654" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612693457781" />
+    <state width="1398" height="654" key="GridCell.Tab.1.center" timestamp="1612693457780">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="654" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612693457780" />
+    <state width="1398" height="654" key="GridCell.Tab.1.left" timestamp="1612693457779">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="654" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612693457779" />
+    <state width="1398" height="654" key="GridCell.Tab.1.right" timestamp="1612693457780">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="654" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612693457780" />
+    <state x="120" y="43" key="SettingsEditor" timestamp="1612690279390">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="120" y="43" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612690279390" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612690609230">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612690609230" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1612690495789">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1440.900@0.0.1440.900" timestamp="1612690495789" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612685347443">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -240,6 +290,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="210" width="528" height="484" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1612341595957" />
+    <state x="386" y="212" width="668" height="476" key="find.popup" timestamp="1612690006393">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="386" y="212" width="668" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1612690006393" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612268849823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
