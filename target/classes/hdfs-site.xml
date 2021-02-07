@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="test/xsl" href="configuration.xsl"?>
+
+
+<configuration>
+    <!-- 集群的namenode的位置  datanode能通过这个地址注册-->
+    <property>
+        <name>dfs.blocksize</name>
+        <value>256M</value>
+    </property>
+    <property>
+        <name>dfs.replication</name>
+        <value>2</value>
+    </property>
+</configuration>
