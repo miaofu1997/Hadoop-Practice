@@ -1,12 +1,7 @@
 package cn._miao.hdfs.mr.flow;
 
-import cn._miao.hdfs.mr.line.Line;
-import cn._miao.hdfs.mr.line.LineMapper;
-import cn._miao.hdfs.mr.line.LineReducer;
-import com.google.inject.internal.cglib.core.$LocalVariablesSorter;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -26,7 +21,7 @@ import java.io.IOException;
  * 1 在map方法中代码处理异常 catch 最大异常
  * 2 map方法一行执行一次 不要在map方法中new对象 防止重复创建
  * 3 静态的内部类
- * 4 map端和reduce端的输出一致的时候 可以省略  setMapOutputKeyClass  setMapOutputvalueClass
+ * 4 map端和reduce端的输出一致的时候 可以省略 setMapOutputKeyClass setMapOutputvalueClass
  */
 public class Flow {
 
