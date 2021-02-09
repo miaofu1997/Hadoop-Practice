@@ -1,5 +1,6 @@
 package cn._miao.hdfs.mr.movie;
 
+import cn._miao.hdfs.mr.movie.pojo.MovieBean;
 import com.alibaba.fastjson.JSON;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
