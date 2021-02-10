@@ -16,7 +16,7 @@ import java.io.IOException;
  * 2 均分
  * 3 每部电影 top
  * 4 每部电影的评论次数
- * 5 评论次数topN  热门电影
+ * 5 评论次数topN (热门电影)
  *   序列化
  *   MovieBean是用来 封装数据的
  *   mysql的表数据

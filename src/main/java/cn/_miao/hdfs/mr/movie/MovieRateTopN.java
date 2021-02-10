@@ -75,9 +75,7 @@ public class MovieRateTopN {
         }
     }
 
-    /**
-     * 输出结果 就是电影bean 重写的toString结果
-     */
+    //输出结果 就是电影bean 重写的toString结果
     static class MovieRateTopNReducer extends Reducer<Text, MovieBean, MovieBean, NullWritable> {
         @Override
         protected void reduce(Text key, Iterable<MovieBean> values, Context context) throws IOException, InterruptedException {
@@ -87,7 +85,7 @@ public class MovieRateTopN {
                 for (MovieBean value : values) {
                     MovieBean newmb = new MovieBean();
                     // 复制属性   参数一 新的类  参数二 数据源bean
-                    BeanUtils.copyProperties(newmb,value);
+                    BeanUtils.copyProperties(newmb, value);
                     list.add(newmb);
                 }
 
